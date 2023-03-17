@@ -1,0 +1,10 @@
+===> Data: 2019-06-16 13:31:28
+Imię: Miś Koala
+E-mail: mis.koala@jakis-adres.pl
+Wiadomość:
+Cześć!
+Masz bardzo ciekawą kolekcję książek!
+Chciałbym jedną wypożyczyć.
+Pozdrawiam!
+<===
+
