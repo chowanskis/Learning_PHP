@@ -20,6 +20,11 @@
  */
 
   // Celowy błąd, aby zobaczć rekcję interpretera
-  print "Co to może być';
+  // print "Co to może być';
+
+  // Poprawny kod, aby zobaczć rekcję interpretera
+  print "Co to może być";
+
+
 
  ?>
