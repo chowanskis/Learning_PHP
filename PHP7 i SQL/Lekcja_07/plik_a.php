@@ -21,6 +21,9 @@
 /* definicja zmiennych */
 $a = 15;
 $b = 8;
+$br = "\n";
 
-($a > $b) ? print "a jest większe od b" : print "a jest mniejsze od  b" ;
+($a > $b) ? print "a jest większe od b" : print "a jest mniejsze od  b"; print $br;
+($a > $b) ? print "a jest większe od b" : print 'a jest mniejsze od  b'; print $br;
+($a > $b) ? print "$a jest większe od $b" : print "$a jest mniejsze od  $b"; PHP_EOL;
 ?>
