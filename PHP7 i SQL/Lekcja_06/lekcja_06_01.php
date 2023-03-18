@@ -16,3 +16,6 @@ echo "Przykład umieszczenia \"Cudzysłowia\" w tekście\n";
 /* łączenie tekstu i zmiennych */
 print "To "."jest "."przykładowy "."tekst "."w "."języku $myText\n";
 echo "To ", "jest ", "przykładowy ", "tekst ", "w ", "języku ", $myText, PHP_EOL;
+
+// Dlaczego autor nie zamieszcza znacznika zamykającego?
+?> 
