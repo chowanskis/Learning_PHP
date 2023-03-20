@@ -1,6 +1,6 @@
 <?php
 /*
- * plik_b.php
+ * plik_c.php
  * Copyright 2023 Sławomir Chowański
  * 
  * This program is free software; you can redistribute it and/or modify
@@ -19,13 +19,14 @@
  * MA 02110-1301, USA.
  */
 
- define("STALA", 4);
+ $start = 1;
+ $stop = 5;
+ $silnia = 1;
 
- $start = 20;
- $end = 29;
- 
- while ($start <= $end) {
-    printf( "Wartość zmiennej liczbowej wynosi: %d \n", $start);
-    $start++;
+ for ($i = $start; $i <= $stop ; $i++, $start++) { 
+    $silnia *= $start; 
  }
+
+ printf("Silnia wynosi %d \n", $silnia);
+ print PHP_EOL;
  ?>
