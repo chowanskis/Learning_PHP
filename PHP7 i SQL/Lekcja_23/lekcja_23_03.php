@@ -1,5 +1,5 @@
 <?php
-include_once("funkcje.php"); // dołącz dodatkowy plik z kodem
+include_once("../Pliki_dodatkowe/funkcje.php"); // dołącz dodatkowy plik z kodem
 
 if (function_exists("rectangle")) // sprawdź czy funkcja jest zdefiniowana
 {

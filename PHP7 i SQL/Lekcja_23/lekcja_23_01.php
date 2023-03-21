@@ -1,5 +1,5 @@
 <?php
-include("funkcje.php"); // dołącz dodatkowy plik z kodem
+include("../Pliki_dodatkowe/funkcje.php"); // dołącz dodatkowy plik z kodem
 
 $numer = "SG 12345"; // przykładowy numer rejestracyjny pojazdu
 $woj = rejestracja_pojazdu($numer); // wywołaj funkcję z dołączonego pliku
