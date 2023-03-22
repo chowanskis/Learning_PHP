@@ -1,6 +1,6 @@
 <?php
 /*
- * plik_b.php
+ * plik_d.php
  * Copyright 2023 Sławomir Chowański
  * 
  * This program is free software; you can redistribute it and/or modify
@@ -19,14 +19,13 @@
  * MA 02110-1301, USA.
  */
 
-$owoce = ["jabłko", "banan", "arbuz", "gruszka"];
+ // https://www.php.net/manual/en/function.sort
+ 
+$fruits = array("Orange1", "orange2", "Orange3", "orange20");
 
-print "Przed sortowaniem:\n";
-print_r($owoce);
+sort($fruits, SORT_NATURAL | SORT_FLAG_CASE);
 
-// Sortowanie talblicy z zachowaniem kluczy!
-asort($owoce);
-
-print "\nPo sortowaniu:\n";
-print_r($owoce);
+foreach ($fruits as $key => $val) {
+    echo "fruits[" . $key . "] = " . $val . "\n";
+}
 ?>
