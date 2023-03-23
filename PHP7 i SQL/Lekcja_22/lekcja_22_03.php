@@ -13,11 +13,14 @@ $month = "03";
 $table = []; // definicja zmiennej tablicowej
 
 // pobierz dane archiwalne jeśli wcześniej nie zostały pobrane
-if (!is_file($filename)) { // czy plik istnieje?
+// Dlaczego takie trudne komentarze. Przecież powinno być
+// Jeżeli plik nie istnieje to pobierz dane i zapisz w pliku. 
+if (!is_file($filename)) { // czy plik istnieje? - NIE KOMENTUJ TAK
     $data = file_get_contents($url); // pobierz dane z Internetu
     file_put_contents($filename, $data); // zapisz dane w pliku na dysku
 };
 
+// Tu się zgadza, jeżli plik istnieje?
 if (is_file($filename)) // czy plik istnieje?
 {
     $file = fopen($filename, "r"); // otwarcie pliku w trybie tylko do odczytu
