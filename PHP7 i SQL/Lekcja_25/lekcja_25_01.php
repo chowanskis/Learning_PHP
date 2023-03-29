@@ -1,5 +1,6 @@
 <?php
-class Auto // definicja klasy
+//Jest jakiś problem ze słowem Auto.
+class Aauto // definicja klasy
 {
     private $marka; // właściwość klasy
     
@@ -14,10 +15,10 @@ class Auto // definicja klasy
     }
 }
 
-$fiat = new Auto(); // tworzenie pierwszego egzemplarza klasy
+$fiat = new Aauto(); // tworzenie pierwszego egzemplarza klasy
 $fiat->setMarka("Fiat 125p"); // i wywołanie metody
 
-$jeep = new Auto(); // tworzenie drugiego egzemplarza klasy
+$jeep = new Aauto(); // tworzenie drugiego egzemplarza klasy
 $jeep->setMarka("Jeep Grand Cherokee"); // i wywołanie metody
 
 print "Samochody występujące jako obiekty:\n";
